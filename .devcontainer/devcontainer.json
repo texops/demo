@@ -1,5 +1,5 @@
 {
   "name": "TexOps Demo",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "postCreateCommand": "gh release download --repo texops/tx --pattern 'tx_*_linux_amd64.tar.gz' --output - | sudo tar xz -C /usr/local/bin tx"
+  "postCreateCommand": "curl -fsSL https://github.com/texops/tx/releases/download/v0.3.0/tx_0.3.0_linux_amd64.tar.gz | sudo tar xz -C /usr/local/bin tx"
 }
