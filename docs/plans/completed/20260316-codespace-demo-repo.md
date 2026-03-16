@@ -58,7 +58,7 @@ Create a `texops/demo` GitHub repo that lets prospective users evaluate the `tx`
 
 ### Task 5: Move plan to completed
 
-- [ ] Move this plan to `docs/plans/completed/`
+- [x] Move this plan to `docs/plans/completed/`
 
 ## Technical Details
 
