@@ -1,5 +1,5 @@
 {
   "name": "TexOps Demo",
-  "image": "mcr.microsoft.com/devcontainers/go:1.24",
-  "postCreateCommand": "go install github.com/texops/tx@latest"
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "gh release download --repo texops/tx --pattern 'tx_*_linux_amd64.tar.gz' --output - | sudo tar xz -C /usr/local/bin tx"
 }
