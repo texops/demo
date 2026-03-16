@@ -31,9 +31,9 @@ Create a `texops/demo` GitHub repo that lets prospective users evaluate the `tx`
 **Files:**
 - Create: `testmath.tex`
 
-- [ ] Fetch testmath.tex from `https://raw.githubusercontent.com/latex3/latex2e/main/required/amsmath/testmath.tex`
-- [ ] Place it at repo root as `testmath.tex`
-- [ ] Verify it contains `\documentclass` (needed for `tx init` discovery)
+- [x] Fetch testmath.tex from `https://raw.githubusercontent.com/latex3/latex2e/main/required/amsmath/testmath.tex`
+- [x] Place it at repo root as `testmath.tex`
+- [x] Verify it contains `\documentclass` (needed for `tx init` discovery)
 
 ### Task 3: Write README.md
 
