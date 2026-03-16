@@ -1,5 +1,12 @@
 {
   "name": "TexOps Demo",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "postCreateCommand": "curl -fsSL https://github.com/texops/tx/releases/download/v0.3.0/tx_0.3.0_linux_amd64.tar.gz | sudo tar xz -C /usr/local/bin tx"
+  "postCreateCommand": "curl -fsSL https://github.com/texops/tx/releases/download/v0.3.0/tx_0.3.0_linux_amd64.tar.gz | sudo tar xz -C /usr/local/bin tx",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mathematic.vscode-pdf"
+      ]
+    }
+  }
 }
