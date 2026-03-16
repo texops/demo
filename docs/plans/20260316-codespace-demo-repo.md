@@ -22,9 +22,9 @@ Create a `texops/demo` GitHub repo that lets prospective users evaluate the `tx`
 **Files:**
 - Create: `.devcontainer/devcontainer.json`
 
-- [ ] Create `.devcontainer/devcontainer.json` using `mcr.microsoft.com/devcontainers/go:1.24` as base image
-- [ ] Add `postCreateCommand` to run `go install github.com/texops/tx@latest`
-- [ ] Validate JSON syntax
+- [x] Create `.devcontainer/devcontainer.json` using `mcr.microsoft.com/devcontainers/go:1.24` as base image
+- [x] Add `postCreateCommand` to run `go install github.com/texops/tx@latest`
+- [x] Validate JSON syntax
 
 ### Task 2: Add testmath.tex
 

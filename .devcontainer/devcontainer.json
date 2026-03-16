@@ -1,0 +1,5 @@
+{
+  "name": "TexOps Demo",
+  "image": "mcr.microsoft.com/devcontainers/go:1.24",
+  "postCreateCommand": "go install github.com/texops/tx@latest"
+}
