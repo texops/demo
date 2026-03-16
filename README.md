@@ -34,5 +34,5 @@ When you ran `tx build`, the CLI uploaded `testmath.tex` to the TexOps cloud ser
 
 ## Learn More
 
-- [tx CLI](https://github.com/texops/tx) — source code and documentation
-- [TexOps](https://texops.io) — cloud LaTeX compilation service
+- https://github.com/texops/tx — source code
+- https://texops.dev — documentation
