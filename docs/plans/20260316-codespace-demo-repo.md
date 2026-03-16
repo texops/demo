@@ -40,15 +40,15 @@ Create a `texops/demo` GitHub repo that lets prospective users evaluate the `tx`
 **Files:**
 - Create: `README.md`
 
-- [ ] Add title and one-line description of what this repo is
-- [ ] Add "Open in GitHub Codespaces" badge linking to `texops/demo`
-- [ ] Write step-by-step instructions:
+- [x] Add title and one-line description of what this repo is
+- [x] Add "Open in GitHub Codespaces" badge linking to `texops/demo`
+- [x] Write step-by-step instructions:
   1. Open in Codespace (click badge)
   2. `tx login` — authenticate with TexOps
   3. `tx init` — accept defaults (texlive:2021, pdflatex)
   4. `tx build` — compile, PDF appears in working directory
-- [ ] Add brief "What happened?" section explaining the cloud build flow
-- [ ] Add link to tx repo and TexOps for more info
+- [x] Add brief "What happened?" section explaining the cloud build flow
+- [x] Add link to tx repo and TexOps for more info
 
 ### Task 4: Create the GitHub repo and push
 
