@@ -52,9 +52,9 @@ Create a `texops/demo` GitHub repo that lets prospective users evaluate the `tx`
 
 ### Task 4: Create the GitHub repo and push
 
-- [ ] Create `texops/demo` repo on GitHub (public, no template)
-- [ ] Push all files
-- [ ] Verify Codespace launches and `tx` is available after container build
+- [x] Create `texops/demo` repo on GitHub (public, no template)
+- [x] Push all files
+- [x] Verify Codespace launches and `tx` is available after container build
 
 ### Task 5: Move plan to completed
 
